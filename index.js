@@ -13,23 +13,19 @@ module.exports = function testReducer(reducer) {
 
     // Perform invariant checks
     if (typeof from === 'undefined') {
-      assert(false, 'The `from` was not specified in reducer assertion call.');
+      assert(false, 'The `from` option was not specified in the reducer assertion call.');
     }
 
     if (typeof to === 'undefined') {
-      assert(false, 'The `to` was not specified in reducer assertion call.');
+      assert(false, 'The `to` option was not specified in the reducer assertion call.');
     }
 
     if (typeof action === 'undefined') {
-      assert(false, 'The `action` was not specified in reducer assertion call.');
+      assert(false, 'The `action` option was not specified in the reducer assertion call.');
     }
 
     // Get the next state
-    try {
-      var result = reducer(from, action);
-    } catch (e) {
-      assert(false, 'The reducer threw an exception.');
-    }
+    var result = reducer(from, action);
 
     // Assert strict equality
     assert.deepStrictEqual(result, to);
