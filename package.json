@@ -1,6 +1,6 @@
 {
   "name": "redux-test-reducer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple testing mechanism for Redux reducers",
   "main": "index.js",
   "scripts": {
