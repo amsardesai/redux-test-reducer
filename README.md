@@ -1,6 +1,8 @@
 
 # redux-test-reducer
 
+[![Build Status](https://travis-ci.org/amsardesai/redux-test-reducer.svg?branch=master)](https://travis-ci.org/amsardesai/redux-test-reducer)
+
 **redux-test-reducer** is a simple module that allows you to cleanly test your
 [Redux](https://github.com/reactjs/redux) reducers.
 
