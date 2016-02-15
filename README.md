@@ -2,6 +2,8 @@
 # redux-test-reducer
 
 [![Build Status](https://travis-ci.org/amsardesai/redux-test-reducer.svg?branch=master)](https://travis-ci.org/amsardesai/redux-test-reducer)
+[![npm version](https://badge.fury.io/js/redux-test-reducer.svg)](https://badge.fury.io/js/redux-test-reducer)
+[![Dependency Status](https://david-dm.org/amsardesai/redux-test-reducer.svg)](https://david-dm.org/amsardesai/redux-test-reducer)
 
 **redux-test-reducer** is a simple module that allows you to cleanly test your
 [Redux](https://github.com/reactjs/redux) reducers.
