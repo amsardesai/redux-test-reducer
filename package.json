@@ -7,6 +7,10 @@
     "test": "mocha ./test.js",
     "prepublish": "npm test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amsardesai/redux-test-reducer.git"
+  },
   "author": "Ankit Sardesai <amsardesai@gmail.com>",
   "license": "MIT",
   "dependencies": {
